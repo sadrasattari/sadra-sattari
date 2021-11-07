@@ -1,0 +1,230 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* add fonts */
+
+@font-face {
+    font-family: dast;
+    src: url(../assets/font/danstevis/danstevis.otf);
+}
+
+
+/* root */
+
+
+/*  header */
+
+.header {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-image: url(../assets/picture/index-header1-bg.jpg);
+    position: relative;
+}
+
+.header-overlay {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.logo-side {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-side a {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-side {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav li {
+    margin: 10px 0;
+}
+
+.nav a {
+    color: white;
+    padding: 255px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.header-footer {
+    position: absolute;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    bottom: -20px;
+    margin: 0 400px;
+}
+
+.header-footer a {
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 60px;
+}
+
+.header-footer a:hover {
+    margin-top: -20px;
+    transition: 1s;
+}
+
+.header-footer .fa-telegram {
+    /* background-color: rgb(255, 255, 255); */
+    color: blue;
+    border-radius: 90px;
+}
+
+.header-footer .fa-instagram {
+    /* background-color: rgb(248, 255, 248); */
+    color: red;
+    border-radius: 90px;
+}
+
+.header-footer .fa-twitter {
+    /* background-color: blue; */
+    color: white;
+    border-radius: 90px;
+}
+
+.header-footer .fa-github {
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+}
+
+.header-footer .fa-whatsapp {
+    /* background-color: green; */
+    color: green;
+    border-radius: 90px;
+}
+
+
+/* sec1 Home page */
+
+.sec1-Home {
+    width: 100%;
+    height: 800px;
+}
+
+.sec1-Home-col1 {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+
+.sec1-Home-col2 {
+    width: 100%;
+    height: 500px;
+    direction: rtl;
+}
+
+.sec1-Home-col2 p {
+    width: 900px;
+    font-size: 20px;
+    margin: 50px 200px;
+    font-family: dast;
+}
+
+.pst1 {
+    width: 500px;
+    height: 300px;
+    margin: 0px 30%;
+    cursor: pointer;
+}
+
+
+/* sec2  */
+
+.sec2-Home {
+    width: 100%;
+    height: 1000px;
+}
+
+.sec2-Home-col1 {
+    width: 100%;
+    height: 300px;
+}
+
+.sec2-Home-col2 {
+    width: 100%;
+    height: 500px;
+    direction: rtl;
+}
+
+.sec2-Home-col2 p {
+    width: 900px;
+    font-size: 20px;
+    margin: 50px 200px;
+    font-family: dast;
+}
+
+.pst2 {
+    width: 500px;
+    height: 300px;
+    margin: 0px 30%;
+    cursor: pointer;
+}
+
+
+/* sec3 */
+
+.sec3-Home {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/picture/post2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sec3-overlay {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+
+/* footer */
